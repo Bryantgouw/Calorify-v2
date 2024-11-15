@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CaloriFy</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/logo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body hidden>
+        <header>
+            <div class="appName">
+                <h1>Calori<span class="judulApp">Fy</span></h1>
+            </div>
+            <nav>
+                    <div class="box">
+                        <a href="#the-lab">The Lab</a>
+                    </div>
+
+                    <div class="box">
+                        <a href="#testimony">Testimony</a>
+                    </div>
+            </nav>
+        </header>
+        <div class="mobilepage">
+            <div class="kotakDeskripsi">
+                <img src="assets/description3.png" alt="Description" class="deskripsiGmbr">
+                <article class="description block">
+                    <h1>Apa itu Calori<span class="judulApp">Fy</span>?</h1>
+                    <p>
+                        <strong>CaloriFy</strong> merupakan sebuah aplikasi Virtual Lab Olahraga yang
+                        dibuat oleh Anthony Bryant Gouw ( 18222033 ) dengan tujuan utama untuk mengedukasi
+                        mahasiswa tingkat pertama ( TPB ) Institut Teknologi Bandung dalam menyediakan
+                        eksperimen virtual kebutuhan kalori ideal yang dibutuhkan oleh manusia per hari berdasarkan
+                        intensitas olahraga yang dilakukan oleh manusia. Kebutuhan kalori ini dihitung dengan 
+                        menggunakan rumus Harris-Benedict 
+                    </p>
+                </article> 
+            </div>
+
+            <div class="judul1 block">
+                <h5 id="the-lab">The Lab</h5>
+            </div>
+
+            <div class="lab block">
+                <aside>
+                    <h2 id="widthLab">Basal Metabolism Rate (BMR)</h2>
+                    <form id="inputData">
+                        <div class="input" id="widthLab">
+                            <label for="inputNamaKegiatan">Nama Kegiatan</label>
+                            <input class="teks" id="inputNamaKegiatan" type="text" required>
+                        </div>
+                        <div class="judulIsian" id="widthLab">
+                            <h3>Gender</h3>
+                        </div>
+                        <div class="input_inline" id="widthLab">
+                            <input class="pg" id="inputGenderLaki" name="gender" type="radio" value="laki" required>
+                            <label for="inputGenderLaki">Laki-laki</label>
+                        </div>
+                        <div class="input_inline" id="widthLab">
+                            <input class="pg" id="inputGenderPerempuan" name="gender" type="radio" value="perempuan" required>
+                            <label for="inputGenderPerempuan">Perempuan</label>
+                        </div>
+
+                        <div class="judulIsian" id="widthLab">
+                            <h3>Intensitas Aktivitas Fisik</h3>
+                        </div>
+                        <div class="input_inline" id="widthLab">
+                            <input class="pg" id="TidakOR" name="intensitas" type="radio" value="tidakPernah" required>
+                            <label for="TidakOR">Hampir Tidak Pernah Berolahraga</label>
+                        </div>
+                        <div class="input_inline" id="widthLab">
+                            <input class="pg" id="jarangOR" name="intensitas" type="radio" value="Jarang" required>
+                            <label for="jarangOR">Jarang Berolahraga</label>
+                        </div>
+                        <div class="input_inline" id="widthLab">
+                            <input class="pg" id="SeringOR" name="intensitas" type="radio" value="Sering" required>
+                            <label for="SeringOR">Sering berolahraga</label>
+                        </div>
+
+                        <div class="judulIsian" id="widthLab">
+                            <h3>Data Tambahan</h3>
+                        </div>
+                        <div class="input" id="widthLab">
+                            <label for="inputBeratBadan">Berat Badan</label>
+                            <input class="teks" id="inputBeratBadan" type="number" required>
+                        </div>
+                        <div class="input" id="widthLab">
+                            <label for="inputTinggiBadan">Tinggi Badan</label>
+                            <input class="teks" id="inputTinggiBadan" type="number" required>
+                        </div>
+                        <div class="input" id="widthLab">
+                            <label for="inputUmur">Umur</label>
+                            <input class="teks" id="inputUmur" type="number" required>
+                        </div>
+                        <button id="submitData" type="submit">Submit</button>
+                    </form>
+                </aside>
+
+                <main>
+                    <div class="JumlahKalori block">
+                        <h4>Kalori yang Dibutuhkan</h4>
+                        <p class="nominalKalori" id="outputKalori">-- kkal/hari</p>
+                        <h4>Kalori yang Telah Terpenuhi Hari Ini</h4>
+                        <p class="nominalKalori" id="outputStomach">-- kkal/hari</p>
+                    </div>
+
+                    <div class="food block">
+                        <div class="foody" draggable="true" data-calories="300">
+                            <img class="foodAsset" src="assets/fries.png" alt="fries" width="80" height=auto>
+                        </div>
+                        <div class="foody" draggable="true" data-calories="400">
+                            <img class="foodAsset" src="assets/chicken.png" alt="chicken" width="80" height=auto>
+                        </div>
+                        <div class="foody" draggable="true" data-calories="500">
+                            <img class="foodAsset" src="assets/steak.png" alt="steak" width="80" height=auto>
+                        </div>
+                        <div class="foody" draggable="true" data-calories="600">
+                            <img class="foodAsset" src="assets/fruits.png" alt="fruits" width="80" height=auto>
+                        </div>
+                        <div class="foody" draggable="true" data-calories="700">
+                            <img class="foodAsset" src="assets/salad.png" alt="salad" width="80" height=auto>
+                        </div>
+                        <div class="foody" draggable="true" data-calories="800">
+                            <img class="foodAsset" src="assets/rice.png" alt="rice" width="80" height=auto>
+                        </div>
+                    </div>
+
+                    <div class="manusia block">
+                        <img src="assets/boy.png" alt="boy" width="220" height=auto>
+                    </div>
+
+                    <div class="hasilAnalisa block">
+                        <p>Berdasarkan makanan yang telah kamu makan hari ini, <div id="ubahState">kebutuhan kalorimu belum diketahui !</div></p>
+                    </div>
+                    <div class="opsitombol block">
+                        <button id="resetTombol" type="submit">Reset</button>
+                        <div class="empty"></div>
+                        <button id="resetTombol" type="submit" class="save">Save</button>
+                    </div>
+                </main>
+            </div>
+            <div class="history block">
+                <div class="history-text">Mau tahu histori kalori kamu ?</div>
+                <div class="history-button"><a class="spesial-history" href="history.html">CaloriFy History ></a></div>
+            </div>
+            <div class="judul1 block">
+                <h5 id="testimony">Testimony</h5>
+            </div>
+        </div>
+        
+        <!--SLIDER-->
+        <div class="slider" style="
+        --width: 310px;
+        --height: 200px;
+        --quantity: 5;
+        ">
+            <div class="lists">
+                <div class="item" style="--position: 1"><img src="assets/testimony/test1.png" alt="Image"></div>
+                <div class="item" style="--position: 2"><img src="assets/testimony/test2.png" alt="Image"></div>
+                <div class="item" style="--position: 3"><img src="assets/testimony/test3.png" alt="Image"></div>
+                <div class="item" style="--position: 4"><img src="assets/testimony/test4.png" alt="Image"></div>
+                <div class="item" style="--position: 5"><img src="assets/testimony/test5.png" alt="Image"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer_text">&copy; Anthony Bryant Gouw ( 18222033 ) | 2024</p>
+        </footer>
+        <script src="main.js" type="module" defer></script>
+    </body>
+</html>

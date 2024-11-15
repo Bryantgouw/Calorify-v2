@@ -1,0 +1,591 @@
+/* colours */
+:root{
+    --primary: #2D3250;
+    --secondary: #D9D9D9;
+    --third: #212434;
+    --fourth: #7077A1;
+    --text: white;
+    --add-text: #FF920C;
+    --add-text2: #FF920C;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--third);
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.appName{
+    padding: 15px 15px 15px 30px;
+}
+
+.apptitel{
+    padding: 15px;
+}
+
+h1{
+    color: var(--fourth);
+}
+
+h2{
+    margin: 0px 0px 10px 0px;
+}
+
+.judulApp{
+    color: var(--add-text);
+    font-style: italic;
+}
+
+.judul1{
+    background-color: var(--add-text);
+    color: var(--third);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 8px;
+    margin: 25px 0px 0px 50px;
+    padding: 10px;
+    width: 150px;
+}
+
+nav{
+    margin: 0px 0px 0px 750px;
+    position: sticky;
+    display: flex;
+}
+
+.box{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    font-weight: bold;
+}
+
+a{
+    color: var(--add-text);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.box:hover{
+    background-color: var(--add-text);
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.box:hover a{
+    color: var(--primary);
+}
+
+.description{
+    color: var(--fourth);
+    text-align: justify;
+    margin: 95px 30px 20px 60px;
+    width: 475px;
+}
+
+.deskripsiGmbr{
+    margin: 10px 70px 10px 70px;
+    width: 450px;
+    height: auto;
+}
+
+.kotakDeskripsi{
+    display: flex;
+}
+
+aside{
+    background-color: var(--primary);
+    color: var(--fourth);
+    margin: 15px 50px 50px 50px;
+    padding: 35px;
+    width: 305px;
+    height: 675px;
+    border-radius: 15px;
+}
+
+.judulIsian{
+    color: var(--add-text);
+}
+
+label{
+    margin: 5px 0px 0px 0px;
+}
+
+#widthLab{
+    width: 250px;
+}
+
+.teks{
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-weight: bold;
+}
+
+h3{
+    margin: 25px 0px 5px 0px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.pg{
+    background-color: var(--fourth);
+    border: 2px solid;
+    border-radius: 1.5px;
+}
+
+button{
+    background-color: var(--fourth);
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 2px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    width: 100px;
+}
+
+#resetTombol{
+    margin: 15px 0px 0px 0px;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+}
+
+.history-text{
+    color: var(--fourth);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.history-button{
+    color: var(--third);
+    background-color: var(--fourth);
+    padding: 15px 15px 15px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.spesial-history{
+    color: var(--third);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+button:hover{
+    background-color: var(--add-text);
+    color: var(--third);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.history-button:hover{
+    background-color: var(--add-text);
+}
+
+.opsitombol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty{
+    width: 10px;
+}
+
+.empty-space{
+    height: 150px;
+}
+
+.whole{
+    margin-left: 10px;
+}
+
+.lab{
+    display: flex;
+}
+
+main{
+    color: var(--text);
+    font-weight: bold;
+    height: 675px;
+    margin: 0px 50px 0px 0px;
+    padding: 0px 25px 25px 25px;
+    text-align: center;
+}
+
+.manusia{
+    margin: 0px 0px 25px 0px;
+}
+
+.nominalKalori{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.foodAsset{
+    margin: 10px;
+}
+
+.foody{
+    width: 80px;
+    margin: 0px 37px 0px 0px;
+}
+
+.food{
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    color: var(--add-text);
+    margin: 10px 0px;
+}
+
+h5{
+    margin: 0px;
+}
+
+footer{
+    background-color: var(--primary);
+    color: var(--fourth);
+    text-align: left;
+    padding: 15px 15px 45px 30px;
+}
+
+/* CSS SLIDER */
+.slider{
+    width: 100%;
+    height: var(--height);
+    overflow: hidden;
+    margin: 10px 0px 15px 0px;
+}
+
+.slider .lists{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width)*var(--quantity));
+    position: relative;
+}
+
+.slider .lists .item{
+    width: var(--width);
+    height: var(--height);
+    left: 100%;
+    animation: autoRun 5s linear infinite;
+    animation-delay: calc((5s / var(--quantity))*(var(--position)-1));
+}
+
+.slider .lists .item img{
+    width: 100%;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    to { 
+        opacity: 1;
+        scale: 1;
+    }
+}
+.block{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes autoRun{
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(calc(var(--width)*-1));
+    }
+}
+
+.contentalign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.judulkontainer{
+    color: var(--fourth);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.kembali{
+    width: 40px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.judulkontainer2{
+    color: var(--fourth);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 8px 0px 15px 0px;
+    text-align: center;
+}
+.analysis{
+    display: flex;
+    margin: 8px 15px;
+}
+
+.persentase-terpenuhi{
+    background-color: #BF594D;
+}
+
+.persentase-tidak-terpenuhi{
+    background-color: #FFAF5D;
+}
+
+.jumlah-hari{
+    background-color: #025C87;
+}
+
+.text{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.text2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#width-size{
+    padding: 15px;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--third);
+}
+
+.saved-data{
+    padding-left: 40px;
+    color: var(--fourth);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kotak-save{
+    background-color: var(--fourth);
+    color: var(--third);
+    padding: 20px;
+    margin: 8px 22px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+}
+
+.kotak-save-left{
+    flex: 1;
+}
+
+.nama-scenario{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tanggal{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.calory-needed{
+    font-size: 17px;
+}
+
+.cn1{
+    font-weight: bold;
+}
+
+.cc1{
+    font-weight: bold;
+}
+
+.sampah{
+    width: 40px;
+    height: auto;
+}
+
+.inputanUser input[type="text"],
+.inputanUser input[type="email"],
+.inputanUser input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.inputanUser button{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.boykontainer{
+    width: 200px;
+    height: auto;
+    margin: 40px 0px 20px 0px;
+}
+
+.kontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opsi-redirect{
+    width: 100%;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.kotak1{
+    color: var(--fourth);
+    font-weight:500;
+    margin-right: 7px;
+}
+
+.opsi-signup{
+    color: var(--secondary);
+    font-weight:500;
+}
+
+.opsi-login{
+    color: var(--secondary);
+    font-weight:500;
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        flex-direction: column;
+        width: 425px;
+    }
+
+    nav {
+        margin: 0px;
+    }
+
+    .kotakDeskripsi {
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    aside {
+        margin: 15px; 
+    }
+
+    .food {
+        flex-direction: row;
+        align-items: center; 
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .jumlahKalori,
+    .hasilAnalisa {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 100%; 
+    }
+
+    footer {
+        text-align: center; 
+        padding: 15px; 
+    }
+
+    .slider {
+        height: auto; 
+    }
+
+    .deskripsiGmbr {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .lab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foody {
+        width: 20%;
+    }
+
+    main{
+        height:unset;
+    }
+
+    .kotak-save{
+        width: 325px;
+    }
+    
+    .text2{
+        font-size: 17px;
+    }
+}
