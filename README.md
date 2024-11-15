@@ -5,7 +5,7 @@ CaloriFy merupakan sebuah website Virtual Lab Olahraga yang dikembangkan oleh An
 Nama CaloriFy berasal dari dua kata, Calorie dan Clarify, yang mana sesuai dengan tujuan utama website dikembangkan yaitu untuk mengklarifikasi atau menjelaskan kalori yang dibutuhkan oleh manusia setiap harinya. Perhitungan kebutuhan kalori ini dilakukan dengan menggunakan rumus Harris-Benedict.
 
 <p align="center">
-    <img src="assets/homepage.png.png" alt="homepage" width="300"/><br>
+    <img src="/assets/homepage.png.png" alt="homepage" width="300"/><br>
     Gambar Homepage dari aplikasi CaloriFy <br>
 </p>
 
