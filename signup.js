@@ -9,13 +9,13 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBzhdfltkBvXa64Y4p-WczOVTs6A1_aBAc",
-    authDomain: "calorify-v3.firebaseapp.com",
-    projectId: "calorify-v3",
-    storageBucket: "calorify-v3.firebasestorage.app",
-    messagingSenderId: "437839799724",
-    appId: "1:437839799724:web:559e7b6e4d1678c4bd8609",
-    measurementId: "G-SQGNDN1RT7"
+  apiKey: "YOUR API KEY",
+  authDomain: "YOUR AUTH DOMAIN",
+  projectId: "YOUR PROJECT ID",
+  storageBucket: "YOUR STORAGE BUCKET",
+  messagingSenderId: "YOUR MSG SENDER ID",
+  appId: "YOUR APP ID",
+  measurementId: "YOUR MEASURE ID"
 };
 
 const aplikasi = initializeApp(firebaseConfig);
